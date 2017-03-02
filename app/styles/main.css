@@ -1,73 +1,16 @@
+@import "./bootstrap.min.css";
 @import "./_element/_variable.css";
 @import "./_element/_header.css";
-@import "./_media/_media.css";
-@import "./_pages/home.css";
 @import "./_element/_footer.css";
-@import "./_media/_media.css";
-@import "./jbcalme.css";
-/*@import "./stylesheet.css";*/
+
+@import "./_pages/home.css";
+
 @import "./normalize.css";
 
 /*=========================
 Основные стили
 ==========================*/
-body {
-    
-}
 
-.container__block {
-    width: 1180px;
-    margin: auto;
-    @media (max-width: 1200px) {
-        width: auto;
-    }
-    @media (max-width: 700px) {
-        width: auto;
-    }
-}
-
-/*=========================
-Анимация для шапки
-==========================*/
-@keyframes animateHeader {
-  0% {
-    opacity: 0;
-    transform: translateY(-30px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-
-
-
-
-
-
-.container {
-    display: flex;
-    flex-flow: column;
-    /*width: 1170px;*/
-    margin: auto;
-    font-family: 'roboto';
-    transition: all 0.3s;
-
-    @media (min-width: 600px) and (max-width: 800px) {
-        max-width: 700px;
-    }
-}
-
-ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-}
 
 
 
